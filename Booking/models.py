@@ -3,7 +3,6 @@ from hotel.models import Hotel
 from accounts.models import User
 
 
-# Create your models here.
 class Booking(models.Model):
     booking_id = models.AutoField(primary_key=True, editable=False)
     hotel_id = models.ForeignKey(
