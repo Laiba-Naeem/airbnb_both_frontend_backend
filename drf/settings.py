@@ -74,7 +74,7 @@ ROOT_URLCONF = "drf.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [os.path.join(BASE_DIR, 'react-front-end')],
+        "DIRS": [os.path.join(BASE_DIR, 'frontend')],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -140,7 +140,7 @@ STATIC_URL = "/static/"
 STATIC_ROOT = "static/"
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'react-front-end', "build",
+    os.path.join(BASE_DIR, 'frontend', "build",
                  "static"),  # update the STATICFILES_DIRS
 )
 
