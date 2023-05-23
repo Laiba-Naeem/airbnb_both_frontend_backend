@@ -1,0 +1,93 @@
+/* /* .navbar__p{
+    display: inline-flex;
+    position: relative;
+    left: 900px;
+    top: 30px;
+} */
+
+/*   .................................................................................*/
+/* 
+
+.navbar__p {
+    display: inline-flex;;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 490px;
+
+  } 
+   
+
+
+  
+  .navbar__button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #ff5a5f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+   
+  .navbar__button:hover {
+    background-color: #ff787d;
+  }
+
+  .navbar__button:active {
+    background-color: #ff5a5f;
+  }
+   
+   .navbar__button--home {
+    background-color: white;
+    color: #484848;
+  }
+   
+  .navbar__button--home:hover {
+    background-color: #f0f0f0;
+  }
+   */
+
+
+
+   .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 0.5rem 1rem;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
+  .button {
+    margin: 0 0.5rem;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+    background-color: #ff787d;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .activeButton {
+    background-color: #ff787d;
+  }
+  
