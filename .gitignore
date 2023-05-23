@@ -6,3 +6,10 @@ db.sqlite3
 hotel_dataset.csv
 package.json
 package-lock.json
+react-front-end/node_modules/
+react-front-end/app.yaml
+react-front-end/deploy.yml
+react-front-end/.github/
+react-front-end/.git
+react-front-end/package.json
+react-front-end/package-lock-json
